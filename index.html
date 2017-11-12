@@ -1,8 +1,125 @@
 <!doctype html>
 
 <html lang="en">
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Pacifico" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
+  <script src="scripts/script.js"></script>
+</head>
 <body>
-<h1>Test</h1>
+  <div id="intro">
+    <div class="relative-container">
+      <img class="whale" src="img/whale.png"></img>
+    </div>
+      <h1>Whale, hello!</h1>
+      <a class="scrolly" href="#aboutMe">
+        <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+      </a>
+  </div>
+  <div id="aboutMe">
+    <h1 style="font-size:6em;padding-top:20vh;">I'm Natalie</h1>
+    <h1 style="font-size:3em;">It's nice to meet you!</h1>
+      <a class="scrolly" href="#dev" id="initiateTurtle">
+        <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+      </a>
+  </div>
+  <div class="subbody">
+    <div id="dev">
+      <h1 style="font-size:3.5em;margin-bottom:40px;">Most people know me as a developer...</h1>
+      <span>
+        <div class="relative-container">
+          <div class="text-body">
+            <p>Experience</p>
+            <ul>
+              <li>Bachelor's Degree in Computer Science</li>
+              <li>1 Year of Industy Experience</li>
+              <li>Portfolio of Projects on Github</li>
+            </ul>
+            <p>Skills</p>
+            <ul>
+              <li>Java</li>
+              <li>Python</li>
+              <li>JavaScript & Angular 1</li>
+              <li>HTML and CSS</li>
+              <li>C++ (if I have to)</li>
+            </ul>
+          </div>
+        </div>
+        <h2 style="margin-top:-20%;padding-bottom:10px;">I'm quite comfortable in a shell environment!</h2>
+        <img class="turtle" src="img/turtle.png"></img>
+      </span>
+      <a class="scrolly" href="#dancer" id="initiateStar">
+        <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+      </a>
+    </div>
+    <div id="dancer">
+        <h1 style="font-size:3.5em;margin-bottom:100px;">But at night, I'm also a ballerina!</h1>
+        <span>
+          <div class="text-body" style="margin-top:100px;">
+            <table style="margin-left:50px;">
+              <col align="left">
+              <col align="right">
+              <tr>
+                <th>Experience</th>
+                <th>Skills</th>
+              </tr>
+              <tr>
+                <td style="width:10%;padding-right:400px;">
+                  <ul>
+                  <li>15 Years of Training</li>
+                  <li>4 Years of Teaching Experience</li>
+                  <li>Completion of Joffrey Ballet Schools's Summer Intensive</li>
+                </ul>
+              </td>
+                <td style="width:10%;">
+                  <ul>
+                    <li>Ballet</li>
+                    <li>Pointe</li>
+                    <li>Contemporary</li>
+                    <li>Jazz</li>
+                    <li>Modern</li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <img class="starfish" src="img/starfish.png"></img>
+          <h2 style="text-align:center;margin-right:0;">Once I star-ted dancing, I never stopped!</h2>
+        </span>
+      <a class="scrolly" href="#ux" id="initiateFish">
+        <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+      </a>
+    </div>
+    <div id="ux">
+      <h1 style="font-size:3.5em;padding-bottom:10px;">Right now, I live and work in NYC</h1>
+        <div class="relative-container">
+        <div class="text-body">
+          <p style="width:50%;">
+          I have worked one year as a technology analyst at Credit Suisse.
+          During my time there I have rotated to two different teams.
+          On my first team, I developed web applications using AngularJS
+          and Java. Now on my second team, I am working on POCs that evaluate
+          the cost and benefits of big data environments as used by our team.
+        </p>
+        </div>
+          <img class="fish" src="img/fish.png" style="display:inline;"></img>
+        </div>
+        <h2>Small Fish in a Big City!</h2>
+        <a class="scrolly" href="#passions">
+          <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+        </a>
+    </div>
+    <div id="passions">
+      <h1 style="font-size:3.5em;padding-bottom:10px;">I have many projects and passions...</h1>
+      <a href="https://github.com/nlane">
+        <img class="github" src="img/Octocat.png"></img>
+      </a>
+    </div>
+  </div>
 </body>
 
 </html>
