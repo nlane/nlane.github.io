@@ -9,6 +9,16 @@ body {
   color: #404040;
 }
 
+
+@media (min-width:1280px) {
+
+.star-caption{
+  text-align:center;
+  margin-right:0;
+  padding-left:50px;
+  padding-right:50px;
+}
+
 .whale{
   margin-left: -500px;
   margin-right:0px;
@@ -34,7 +44,15 @@ h1{
   font-size:2em;
   text-align:left;
   display:inline;
-  font-family:'Josefin Slab', serif;;
+  font-family:'Josefin Slab', serif;
+}
+
+.star-text{
+  font-family:'Josefin Slab', serif;
+  font-size:2em;
+  position:relative;
+  float:left;
+  width:29%;
 }
 
 #intro{
@@ -69,6 +87,12 @@ h1{
   background-color: #84E9FF;
 }
 
+#last{
+  position:relative;
+  height: 98vh;
+  background-color: #84E9FF;
+}
+
 .subbody{
 
   background-color: #84E9FF;
@@ -91,15 +115,13 @@ h1{
 }
 
 .starfish{
-  margin-left:-200px;
+  margin-left:-570px;
   margin-right: 0px;
   position: relative;
   width:auto;
-	max-width:21%;
+	max-width:50%;
 	height:auto;
-  margin-top: -150%;
   disply:inline;
-  /*margin-top:30vh;*/
 }
 
 .fish{
@@ -121,7 +143,7 @@ h1{
 	max-width:30%;
 	height:auto;
   disply:inline;
-  margin-top: 0;
+  margin-top: -10vh;
 }
 
 #spacing {
@@ -143,7 +165,23 @@ h2{
 
 .github{
   width:auto;
-  max-width:25%;
+  max-width:50%;
   height:auto;
   float:left;
+  margin-left:26%;
+}
+
+.coral{
+  width:auto;
+  max-width:25%;
+  height:auto;
+}
+
+.yellowFish{
+  width:auto;
+  max-width:18%;
+  height:auto;
+  margin-left:78%;
+}
+
 }

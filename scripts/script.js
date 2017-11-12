@@ -17,23 +17,28 @@ $(window).resize(function() {
 
 $(document).ready(function() {
   $( "#initiateStar" ).click(function() {
-    $(".starfish").animate({left: 720}, {
-                  step: function(now,fx) {
-                    $(".starfish").css('-webkit-transform','rotate('+now+'deg)');
-                  },
-        duration: 2000
-      });
+    var newPos = ($(window).width()/2) +100 ;
+    var rotateFix = (newPos%360);
+    $(".starfish").animate({left: newPos}, {
+                    step: function(now,fx) {
+                      console.log(now);
+                      console.log(rotateFix);
+                      $(".starfish").css('-webkit-transform','rotate('+(now-rotateFix)+'deg)');
+                    },
+          duration: 2000
+        });
   });
 });
 
 $(document).ready(function() {
   $( "#initiateFish" ).click(function() {
-    $(".fish").animate({right: -900}, 1000);
+    var w = $(".fish").width();
+    $(".fish").animate({right: -($(window).width() / 2)-(w)+70}, 1000);
   });
 });
 
 $(document).ready(function() {
   $( "#initiateTurtle" ).click(function() {
-    $(".turtle").animate({right: -800}, 1000);
+    $(".turtle").animate({right: -($(window).width() / 2)-180}, 1000);
   });
 });
