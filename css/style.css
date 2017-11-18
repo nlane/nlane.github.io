@@ -185,23 +185,51 @@ h2{
   height:auto;
 }
 
+.passionCaption{
+  font-size:2em;
+  width:30%;
+  float:left;
+}
+
+#git{
+  margin-left:-75%;
+}
+
+#blog{
+  margin-left:12%;
+  margin-top:2.7%;
+
+}
+
 }
 
 @media (max-width:1259px) {
 
+  body {
+    margin-left:0px;
+    margin-right:0px;
+    margin-bottom:0px;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 200vh;
+    font-family: 'Pacifico', cursive;
+  }
+
 .star-caption{
   margin-right:0;
-  padding-left:50px;
-  padding-right:50px;
+  padding-right:0px;
+  margin-left: 150px;
+  font-size: 1em;
+  width:50%;
 }
 
 .whale{
-  margin-left: -500px;
+  margin-left: -47%;
   margin-right:0px;
   margin-top: 25vh;
   position: relative;
   width:auto;
-  max-width:90%;
+  max-width:85%;
   height:auto;
 }
 
@@ -217,7 +245,7 @@ h1{
 }
 
 .text-body{
-  font-size:1.5em;
+  font-size:1em;
   text-align:left;
   display:inline;
   font-family:'Josefin Slab', serif;
@@ -225,7 +253,7 @@ h1{
 
 .star-text{
   font-family:'Josefin Slab', serif;
-  font-size:1.5em;
+  font-size:1em;
   position:relative;
   float:left;
   width:50%;
@@ -235,42 +263,42 @@ h1{
 
 #intro{
   position:relative;
-  height: 700px;
+  height: 98vh;
   background-color: #84E9FF;
 }
 
 #aboutMe{
   position:relative;
-  height: 700px;
+  height: 98vh;
   background-color: #84E9FF;
 }
 
 #dancer{
   position:relative;
-  height: 700px;
+  height: 98vh;
   background-color: #84E9FF;
 }
 
 #passions{
   position:relative;
-  height: 700px;
+  height: 98vh;
 }
 
 #dev{
   position:relative;
-  height: 700px;
+  height: 98vh;
   background-color: #84E9FF;
 }
 
 #ux{
   position:relative;
-  height: 700px;
+  height: 98vh;
   background-color: #84E9FF;
 }
 
 #last{
   position:relative;
-  height: 700px;
+  height: 98vh;
   background-color: #84E9FF;
 }
 
@@ -296,7 +324,7 @@ h1{
 }
 
 .starfish{
-  margin-left:-50px;
+  margin-left:-5px;
   margin-right: 0px;
   position: relative;
   width:auto;
@@ -318,9 +346,14 @@ h1{
 }
 
 
+.fishCaption{
+  font-size: 1em;
+}
+
+
 .turtle{
   margin-right:0px;
-  margin-left: -100px;
+  margin-left: -50px;
   position: relative;
   width:auto;
 	max-width:30%;
@@ -330,10 +363,11 @@ h1{
 }
 
 .turtle-text{
-  margin-top:-30vh;
+  margin-top:-20vh;
   padding-bottom:10vh;
   width:50%;
   margin-left:48%;
+  font-size: 1em;
 }
 
 #spacing {
@@ -355,17 +389,31 @@ h2{
 
 .github{
   width:auto;
-  max-width:50%;
+  max-width:25%;
   height:auto;
   float:left;
-  margin-left:26%;
+  margin-left:10%;
 }
 
 .coral{
   width:auto;
-  max-width:25%;
+  max-width:15%;
   height:auto;
 }
 
+.passionCaption{
+  font-size:1.8em;
+  width:30%;
+  float:left;
+}
+
+#git{
+  margin-left:-65%;
+}
+
+#blog{
+  margin-left:7%;
+  margin-top:0%;
+}
 
 }
