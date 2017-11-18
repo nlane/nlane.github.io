@@ -20,7 +20,7 @@ body {
 }
 
 .whale{
-  margin-left: -500px;
+  margin-left: -50%;
   margin-right:0px;
   margin-top: 25vh;
   position: relative;
@@ -146,6 +146,12 @@ h1{
   margin-top: -10vh;
 }
 
+.turtle-text{
+  margin-top:-20%;
+  margin-top:-35vh;
+  padding-bottom:10vh;
+}
+
 #spacing {
   margin-top:0px;
   display: flex;
@@ -177,11 +183,187 @@ h2{
   height:auto;
 }
 
-.yellowFish{
-  width:auto;
-  max-width:18%;
-  height:auto;
-  margin-left:78%;
 }
+
+@media (max-width:1259px) {
+
+.star-caption{
+  margin-right:0;
+  padding-left:50px;
+  padding-right:50px;
+}
+
+.whale{
+  margin-left: -500px;
+  margin-right:0px;
+  margin-top: 25vh;
+  position: relative;
+  width:auto;
+  max-width:90%;
+  height:auto;
+}
+
+h1{
+  text-align: center;
+  font-size: 3.5em;
+  margin-top:5px;
+}
+
+.relative-container {
+    position:relative;
+    overflow: hidden;
+}
+
+.text-body{
+  font-size:1.5em;
+  text-align:left;
+  display:inline;
+  font-family:'Josefin Slab', serif;
+}
+
+.star-text{
+  font-family:'Josefin Slab', serif;
+  font-size:1.5em;
+  position:relative;
+  float:left;
+  width:50%;
+  padding-right:10px;
+  margin-top:-10vh;
+}
+
+#intro{
+  position:relative;
+  height: 700px;
+  background-color: #84E9FF;
+}
+
+#aboutMe{
+  position:relative;
+  height: 700px;
+  background-color: #84E9FF;
+}
+
+#dancer{
+  position:relative;
+  height: 700px;
+  background-color: #84E9FF;
+}
+
+#passions{
+  position:relative;
+  height: 700px;
+}
+
+#dev{
+  position:relative;
+  height: 700px;
+  background-color: #84E9FF;
+}
+
+#ux{
+  position:relative;
+  height: 700px;
+  background-color: #84E9FF;
+}
+
+#last{
+  position:relative;
+  height: 700px;
+  background-color: #84E9FF;
+}
+
+.subbody{
+
+  background-color: #84E9FF;
+}
+
+.scrolly{
+  color: #404040;
+  bottom: 0;
+  position: absolute;
+  margin-left: -17px;
+  width:50%;
+  left:0;
+  padding-left:51%;
+  padding-right:0px;
+
+}
+
+.scrolly:hover{
+  color:#0093FE;
+}
+
+.starfish{
+  margin-left:-50px;
+  margin-right: 0px;
+  position: relative;
+  width:auto;
+	max-width:25%;
+	height:auto;
+  disply:inline;
+  margin-top:-70vh;
+}
+
+.fish{
+  position: relative;
+  width:auto;
+	max-width:25%;
+	height:auto;
+  margin-left: 20%;
+  margin-top:-20%;
+  right:-1500px;
+  margin-left: 0px;
+}
+
+
+.turtle{
+  margin-right:0px;
+  margin-left: -100px;
+  position: relative;
+  width:auto;
+	max-width:30%;
+	height:auto;
+  disply:inline;
+  margin-top: -5vh;
+}
+
+.turtle-text{
+  margin-top:-30vh;
+  padding-bottom:10vh;
+  width:50%;
+  margin-left:48%;
+}
+
+#spacing {
+  margin-top:0px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 3em;
+  font-weight:bold;
+}
+
+p, ul, li{
+  margin-left:5%;
+}
+
+h2{
+  text-align:right;
+  margin-right:50px;
+}
+
+.github{
+  width:auto;
+  max-width:50%;
+  height:auto;
+  float:left;
+  margin-left:26%;
+}
+
+.coral{
+  width:auto;
+  max-width:25%;
+  height:auto;
+}
+
 
 }

@@ -7,11 +7,15 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-  $(".whale").animate({left: ($(window).width() / 2) + 220 }, 1000);
+//  $(".whale").animate({left: '75vw' }, 1000);
+  var w = $(".whale").width();
+  $(".whale").animate({left: $(window).width()-(w/2)-50}, 1000);
 });
 
 $(window).resize(function() {
-  $(".whale").css({left: ($(window).width() / 2) + 220});
+  var w = $(".whale").width();
+  $(".whale").animate({left: $(window).width()-w/2}, 1000);
+//  $(".whale").css({left: ($(window).width() / 2) + 220});
 //  $(".turtle").css({top:-500, left: ($(window).width() / 2) - 220});
 });
 
@@ -33,12 +37,13 @@ $(document).ready(function() {
 $(document).ready(function() {
   $( "#initiateFish" ).click(function() {
     var w = $(".fish").width();
-    $(".fish").animate({right: -($(window).width() / 2)-(w)+70}, 1000);
+    $(".fish").animate({right: -($(window).width()-w-40)}, 1000);
   });
 });
 
 $(document).ready(function() {
   $( "#initiateTurtle" ).click(function() {
-    $(".turtle").animate({right: -($(window).width() / 2)-180}, 1000);
+    var w = $(".turtle").width();
+    $(".turtle").animate({right: -($(window).width()-w)}, 1000);
   });
 });
