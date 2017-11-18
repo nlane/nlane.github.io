@@ -41,7 +41,7 @@ h1{
 }
 
 .text-body{
-  font-size:2em;
+  font-size:1.9em;
   text-align:left;
   display:inline;
   font-family:'Josefin Slab', serif;
@@ -49,7 +49,7 @@ h1{
 
 .star-text{
   font-family:'Josefin Slab', serif;
-  font-size:2em;
+  font-size:1.9em;
   position:relative;
   float:left;
   width:25%;

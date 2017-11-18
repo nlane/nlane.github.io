@@ -7,6 +7,31 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+  $(window).scroll(function() {
+      if ($(this).scrollTop() > $('#initiateTurtle').offset().top-400) {
+        var w = $(".turtle").width();
+        $(".turtle").animate({right: -($(window).width()-w)}, 1000);
+      }
+      if ($(this).scrollTop() > $('#initiateStar').offset().top-400) {
+        var w = $(".starfish").width();
+        var newPos = ($(window).width()) -1.9*w ;
+        var rotateFix = (newPos%360);
+        $(".starfish").animate({left: newPos}, {
+                        step: function(now,fx) {
+                          $(".starfish").css('-webkit-transform','rotate('+(now-rotateFix)+'deg)');
+                        },
+              duration: 2000
+            });
+      }
+      if ($(this).scrollTop() > $('#initiateFish').offset().top-400) {
+        var w = $(".fish").width();
+        $(".fish").animate({right: -($(window).width()-w-40)}, 1000);
+      }
+  })
+});
+;
+
+$(document).ready(function() {
 //  $(".whale").animate({left: '75vw' }, 1000);
   var w = $(".whale").width();
   $(".whale").animate({left: $(window).width()-(w/2)-50}, 1000);
