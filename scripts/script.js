@@ -13,20 +13,19 @@ $(document).ready(function() {
 });
 
 $(window).resize(function() {
-  var w = $(".whale").width();
-  $(".whale").animate({left: $(window).width()-w/2}, 1000);
+  // var w = $(".whale").width();
+  // $(".whale").animate({left: $(window).width()-w/2}, 1000);
 //  $(".whale").css({left: ($(window).width() / 2) + 220});
 //  $(".turtle").css({top:-500, left: ($(window).width() / 2) - 220});
 });
 
 $(document).ready(function() {
   $( "#initiateStar" ).click(function() {
-    var newPos = ($(window).width()/2) +100 ;
+    var w = $(".starfish").width();
+    var newPos = ($(window).width()) -1.9*w ;
     var rotateFix = (newPos%360);
     $(".starfish").animate({left: newPos}, {
                     step: function(now,fx) {
-                      console.log(now);
-                      console.log(rotateFix);
                       $(".starfish").css('-webkit-transform','rotate('+(now-rotateFix)+'deg)');
                     },
           duration: 2000
