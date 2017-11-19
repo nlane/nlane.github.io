@@ -12,6 +12,21 @@ body {
 
 @media (min-width:1260px) {
 
+  .uxHeader{
+    font-size:3.5em;
+    padding-bottom:10px;
+  }
+
+  .devHeader{
+    font-size:3.5em;
+    padding-bottom:40px;
+  }
+
+  .greeting{
+    font-size:6em;
+    padding-top:40px;
+  }
+
 .star-caption{
   text-align:center;
   margin-right:0;
@@ -205,6 +220,21 @@ h2{
 
 @media (max-width:1259px) {
 
+  .uxHeader{
+    font-size:3.5em;
+    padding-bottom:30%;
+  }
+
+  .devHeader{
+    font-size:3.5em;
+    padding-bottom:20%;
+  }
+
+  .greeting{
+    font-size:6em;
+    padding-top:40%;
+  }
+
   /*body {
     margin-left:0px;
     margin-right:0px;
@@ -218,9 +248,10 @@ h2{
 .star-caption{
   margin-right:0;
   padding-right:0px;
-  margin-left: 150px;
-  font-size: 1em;
+  margin-left: 40%;
+  font-size: 2.5em;
   width:50%;
+  text-align: center;
 }
 
 .whale{
@@ -245,7 +276,7 @@ h1{
 }
 
 .text-body{
-  font-size:1.9em;
+  font-size:2.5em;
   text-align:left;
   display:inline;
   font-family:'Josefin Slab', serif;
@@ -253,52 +284,53 @@ h1{
 
 .star-text{
   font-family:'Josefin Slab', serif;
-  font-size:1.9em;
+  font-size:2.5em;
   position:relative;
   float:left;
   width:50%;
   padding-right:10px;
-  margin-top:-10vh;
+  margin-top:0vh;
+  margin-left:25%;
 }
 
 #intro{
   position:relative;
-  height: 80vh;
+  height: 90vh;
   background-color: #84E9FF;
 }
 
 #aboutMe{
   position:relative;
-  height: 80vh;
+  height: 90vh;
   background-color: #84E9FF;
 }
 
 #dancer{
   position:relative;
-  height: 80vh;
+  height: 90vh;
   background-color: #84E9FF;
 }
 
 #passions{
   position:relative;
-  height: 80vh;
+  height: 90vh;
 }
 
 #dev{
   position:relative;
-  height: 80vh;
+  height: 90vh;
   background-color: #84E9FF;
 }
 
 #ux{
   position:relative;
-  height: 80vh;
+  height: 90vh;
   background-color: #84E9FF;
 }
 
 #last{
   position:relative;
-  height: 80vh;
+  height: 90vh;
   background-color: #84E9FF;
 }
 
@@ -324,14 +356,14 @@ h1{
 }
 
 .starfish{
-  margin-left:-5px;
+  margin-left:-40px;
   margin-right: 0px;
   position: relative;
   width:auto;
-	max-width:25%;
+	max-width:45%;
 	height:auto;
   disply:inline;
-  margin-top:-70vh;
+  margin-top:0vh;
 }
 
 .fish{
@@ -363,11 +395,11 @@ h1{
 }
 
 .turtle-text{
-  margin-top:-20vh;
-  padding-bottom:10vh;
+  margin-top:0vh;
+  padding-bottom:5vh;
   width:50%;
   margin-left:48%;
-  font-size: 1em;
+  font-size: 2em;
 }
 
 #spacing {
@@ -392,12 +424,13 @@ h2{
   max-width:25%;
   height:auto;
   float:left;
-  margin-left:10%;
+  margin-left:32%;
+  padding-top:10%;
 }
 
 .coral{
   width:auto;
-  max-width:15%;
+  max-width:25%;
   height:auto;
 }
 
@@ -408,12 +441,18 @@ h2{
 }
 
 #git{
-  margin-left:-65%;
+  margin-left:-26%;
+  padding-bottom: 10%;
 }
 
 #blog{
-  margin-left:7%;
+  margin-left:42%;
   margin-top:0%;
+}
+
+#jelly{
+  padding-top:30%;
+  padding-bottom:5%;
 }
 
 }
