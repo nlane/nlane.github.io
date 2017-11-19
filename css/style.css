@@ -30,8 +30,8 @@ body {
 .star-caption{
   text-align:center;
   margin-right:0;
-  padding-left:50px;
-  padding-right:50px;
+  padding-right:0px;
+  padding:0;
 }
 
 .whale{
@@ -64,11 +64,12 @@ h1{
 
 .star-text{
   font-family:'Josefin Slab', serif;
-  font-size:1.9em;
+  font-size:1.5em;
   position:relative;
   float:left;
   width:25%;
-  margin-left: 3%;
+  margin-left: 7%;
+  padding:0;
 }
 
 .dancerHeader{
@@ -136,7 +137,7 @@ h1{
 }
 
 .starfish{
-  margin-left:-48vw;
+  margin-left:-60vw;
   margin-right: 0px;
   position: relative;
   width:auto;
@@ -212,11 +213,11 @@ h2{
 }
 
 #git{
-  margin-left:-75%;
+  margin-left:-72%;
 }
 
 #blog{
-  margin-left:12%;
+  margin-left:13%;
   margin-top:2.7%;
 
 }
