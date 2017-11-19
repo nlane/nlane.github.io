@@ -205,7 +205,7 @@ h2{
 
 @media (max-width:1259px) {
 
-  body {
+  /*body {
     margin-left:0px;
     margin-right:0px;
     margin-bottom:0px;
@@ -213,7 +213,7 @@ h2{
     background-repeat: no-repeat;
     background-size: 100vw 200vh;
     font-family: 'Pacifico', cursive;
-  }
+  }*/
 
 .star-caption{
   margin-right:0;
@@ -245,7 +245,7 @@ h1{
 }
 
 .text-body{
-  font-size:1em;
+  font-size:1.9em;
   text-align:left;
   display:inline;
   font-family:'Josefin Slab', serif;
@@ -253,7 +253,7 @@ h1{
 
 .star-text{
   font-family:'Josefin Slab', serif;
-  font-size:1em;
+  font-size:1.9em;
   position:relative;
   float:left;
   width:50%;
@@ -263,42 +263,42 @@ h1{
 
 #intro{
   position:relative;
-  height: 98vh;
+  height: 50vh;
   background-color: #84E9FF;
 }
 
 #aboutMe{
   position:relative;
-  height: 98vh;
+  height: 50vh;
   background-color: #84E9FF;
 }
 
 #dancer{
   position:relative;
-  height: 98vh;
+  height: 50vh;
   background-color: #84E9FF;
 }
 
 #passions{
   position:relative;
-  height: 98vh;
+  height: 50vh;
 }
 
 #dev{
   position:relative;
-  height: 98vh;
+  height: 50vh;
   background-color: #84E9FF;
 }
 
 #ux{
   position:relative;
-  height: 98vh;
+  height: 50vh;
   background-color: #84E9FF;
 }
 
 #last{
   position:relative;
-  height: 98vh;
+  height: 50vh;
   background-color: #84E9FF;
 }
 
@@ -402,7 +402,7 @@ h2{
 }
 
 .passionCaption{
-  font-size:1.8em;
+  font-size:2em;
   width:30%;
   float:left;
 }
