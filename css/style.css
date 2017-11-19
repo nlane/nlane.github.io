@@ -71,6 +71,11 @@ h1{
   margin-left: 3%;
 }
 
+.dancerHeader{
+  font-size:3em;
+  margin-bottom:100px;
+}
+
 #intro{
   position:relative;
   height: 98vh;
@@ -293,44 +298,49 @@ h1{
   margin-left:25%;
 }
 
+.dancerHeader{
+  font-size:3em;
+  padding-bottom: 3%;
+}
+
 #intro{
   position:relative;
-  height: 95vh;
+  height: 90vh;
   background-color: #84E9FF;
 }
 
 #aboutMe{
   position:relative;
-  height: 95vh;
+  height: 90vh;
   background-color: #84E9FF;
 }
 
 #dancer{
   position:relative;
-  height: 95vh;
+  height: 90vh;
   background-color: #84E9FF;
 }
 
 #passions{
   position:relative;
-  height: 95vh;
+  height: 90vh;
 }
 
 #dev{
   position:relative;
-  height: 95vh;
+  height: 90vh;
   background-color: #84E9FF;
 }
 
 #ux{
   position:relative;
-  height: 95vh;
+  height: 90vh;
   background-color: #84E9FF;
 }
 
 #last{
   position:relative;
-  height: 95vh;
+  height: 90vh;
   background-color: #84E9FF;
 }
 
