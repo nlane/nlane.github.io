@@ -1,0 +1,72 @@
+---
+---
+
+@import "minima";
+
+body{
+  background-color: #FAFAFA;
+}
+
+h3{
+  color: #2199ab;
+}
+
+.site-header {
+  border-top: 3px solid #187381;
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 55.95px;
+  position: relative; }
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:40%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-left:20px;
+    float:left;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover h3{
+  color: #8DD871;
+}
+
+/* Add some padding inside the card container */
+// .container {
+//   padding-top: 10px;
+//   padding-left: 30px;
+// }
+
+
+footer{
+  background-color: #E08BA2;
+  color: #fafafa;
+}
+
+footer a{
+  color: #fafafa;
+}
+
+.footer-col-wrapper{
+  color:#fafafa;
+}
+
+footer a:hover{
+  color: #8DD871;
+}
+
+.footer-col-wrapper a{
+  color:#fafafa;
+}
+
+/*8DD871
+30C2D7
+E08BA2
+EF3462*/
