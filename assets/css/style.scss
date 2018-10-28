@@ -7,9 +7,34 @@ body{
   background-color: #f9f8f5;
 }
 
+
+blockquote {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+}
+
 .card-link{
   color: #2199ab;
 }
+
+.link-inside-post{
+  color: #2199ab;
+}
+
+.link-inside-post:hover{
+  color: #8DD871 !important;
+}
+
+.link-inside-post:visited{
+  color: #2199ab;
+}
+
 
 .site-header {
   border-top: 3px solid #187381;
@@ -28,7 +53,7 @@ body{
     padding-left: 10px;
     margin-right:20px;
     margin-left:0px;
-    float:left;
+    display: inline-block;
 }
 
 /* On mouse-over, add a deeper shadow */

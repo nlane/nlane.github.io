@@ -5,6 +5,10 @@
 layout: default
 ---
 <div>
+<div class="quote">
+  <blockquote>"I never am really satisfied that I understand anything; because, understand it well as I may, my comprehension can only be an infinitesimal fraction of all I want to understand"<br>~ Ada Lovelace</blockquote>
+</div>
+<br>
   <ul class="post-list">
   <a class="post-link" href="{{ site.baseurl }}{% post_url 2018-10-27-techeducation %}">
   <li class="card"><span class="post-meta">Oct 27, 2018</span>
@@ -12,4 +16,4 @@ layout: default
       </li>
     </a>
   </ul>
-</div>
+  </div>
