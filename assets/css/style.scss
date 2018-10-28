@@ -66,6 +66,7 @@ footer a{
 
 .footer-col-wrapper{
   color:#fafafa;
+  text-align: center;
 }
 
 footer a:hover{
@@ -76,6 +77,22 @@ footer a:hover{
   color:#fafafa;
 }
 
+.footer-col a{
+  padding-right: 15px;
+}
+
+.footer-col {
+  display: inline-block;
+  width: 100%;
+}
+
+.svg-icon {
+  fill: white;
+ }
+
+.svg-icon:hover{
+  fill: #8DD871;
+}
 
 img {
     border-radius: 50%;
@@ -91,7 +108,6 @@ img {
 
 .email-icon {
   padding-right: 5px;
-  color: #828282 !important;
 }
 
 @media only screen and (max-width: 630px) {
