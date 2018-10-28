@@ -553,7 +553,7 @@ footer a {
 
 .footer-col-wrapper {
   color: #fafafa;
-  text-align: center; }
+  text-align: center !important; }
 
 footer a:hover {
   color: #8DD871; }
@@ -565,11 +565,11 @@ footer a:hover {
   padding-right: 15px; }
 
 .footer-col {
-  display: inline-block;
-  width: 100%; }
+  display: inline-block !important;
+  width: 100% !important; }
 
 .svg-icon {
-  fill: white; }
+  fill: white !important; }
 
 .svg-icon:hover {
   fill: #8DD871; }
