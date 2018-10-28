@@ -507,6 +507,13 @@ table {
 body {
   background-color: #f9f8f5; }
 
+.logo {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-top: 13px;
+  margin-left: 10px; }
+
 blockquote {
   display: block;
   margin-top: 1em;
@@ -515,7 +522,8 @@ blockquote {
   margin-right: 40px;
   border: none;
   text-align: center;
-  font-size: 17px; }
+  font-size: 17px;
+  color: #E08BA2; }
 
 .card-link {
   color: #2199ab; }
@@ -535,6 +543,10 @@ blockquote {
   min-height: 55.95px;
   position: relative; }
 
+.card-wrapper {
+  margin-right: 20px;
+  width: 250px; }
+
 .card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -544,13 +556,15 @@ blockquote {
   padding-top: 10px;
   padding-bottom: 5px;
   padding-left: 10px;
-  margin-right: 20px;
   margin-left: 0px;
-  display: inline-block; }
+  display: inline-block;
+  border-color: #30C2D7;
+  border-width: 2px;
+  border-style: solid; }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3); }
 
 .card:hover h3 {
   color: #8DD871; }
