@@ -505,9 +505,9 @@ table {
     color: #099; }
 
 body {
-  background-color: #FAFAFA; }
+  background-color: #f9f8f5; }
 
-h3 {
+.card-link {
   color: #2199ab; }
 
 .site-header {
@@ -520,7 +520,8 @@ h3 {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 40%;
+  width: 250px;
+  height: 200px;
   padding-top: 10px;
   padding-bottom: 5px;
   padding-left: 10px;
@@ -551,6 +552,26 @@ footer a:hover {
 .footer-col-wrapper a {
   color: #fafafa; }
 
+img {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  float: right; }
+
+.text-block {
+  float: left;
+  width: 50%; }
+
+@media only screen and (max-width: 630px) {
+  img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    float: right; }
+
+  .text-block {
+    float: left;
+    width: 70%; } }
 /*8DD871
 30C2D7
 E08BA2
