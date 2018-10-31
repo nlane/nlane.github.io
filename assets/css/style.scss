@@ -147,13 +147,19 @@ img {
 }
 
 .text-block{
-  float: left;
-  width: 50%;
+   float: left;
+   width: 50%;
 }
 
 .email-icon {
   padding-right: 5px;
 }
+
+// grid-container{
+//   display: grid;
+//   grid-template-columns: auto auto auto;
+//   grid-gap: 10px;
+// }
 
 @media only screen and (max-width: 630px) {
   img {
