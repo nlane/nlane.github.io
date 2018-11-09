@@ -12,12 +12,19 @@ layout: default
 <div class="recent-posts">
   <ul class="post-list">
   <div class="card-wrapper">
-  <a class="post-link" href="{{ site.baseurl }}{% post_url 2018-10-27-techeducation %}">
-  <li class="card"><span class="post-meta">Oct 30, 2018</span>
-    <h3 class="card-link">Technology and Education</h3>
-      </li>
-    </a>
-    </div>
+  <span>
+    <a class="post-link" href="{{ site.baseurl }}{% post_url 2018-11-07-impostersyndrome %}">
+    <li class="card"><span class="post-meta">Nov 8, 2018</span>
+      <h3 class="card-link">Imposter Syndrome</h3>
+        </li>
+      </a>
+      <a class="post-link" href="{{ site.baseurl }}{% post_url 2018-10-27-techeducation %}">
+      <li class="card"><span class="post-meta">Oct 30, 2018</span>
+        <h3 class="card-link">Technology and Education</h3>
+          </li>
+        </a>
+      </span>
+      </div>
   </ul>
   </div>
   </div>

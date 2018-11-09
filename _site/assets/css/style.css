@@ -544,20 +544,19 @@ blockquote {
   position: relative; }
 
 .card-wrapper {
-  margin-right: 20px;
-  width: 250px; }
+  margin: 0 auto; }
 
 .card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 250px;
+  width: 210px;
   height: 150px;
   padding-top: 10px;
   padding-bottom: 5px;
   padding-left: 10px;
-  margin-left: 0px;
-  display: inline-block;
+  margin-right: 20px;
+  float: left;
   border-color: #30C2D7;
   border-width: 2px;
   border-style: solid; }
@@ -612,11 +611,14 @@ footer a:hover {
 .svg-icon:hover {
   fill: #8DD871; }
 
-img {
+.profile-pic {
   border-radius: 50%;
   height: 300px;
   width: 300px;
   float: right; }
+
+.imposter-contain {
+  text-align: center; }
 
 .text-block {
   float: left;
@@ -626,7 +628,7 @@ img {
   padding-right: 5px; }
 
 @media only screen and (max-width: 630px) {
-  img {
+  .profile-pic {
     border-radius: 50%;
     height: 100px;
     width: 100px;
