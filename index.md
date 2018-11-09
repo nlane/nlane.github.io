@@ -13,7 +13,7 @@ layout: default
   <ul class="post-list">
   <div class="card-wrapper">
   <span>
-    <a class="post-link" href="{{ site.baseurl }}{% post_url 2018-11-07-impostersyndrome %}">
+    <a class="post-link" href="{{ site.baseurl }}{% post_url 2018-11-08-impostersyndrome %}">
     <li class="card"><span class="post-meta">Nov 8, 2018</span>
       <h3 class="card-link">Imposter Syndrome</h3>
         </li>
