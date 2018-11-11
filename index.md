@@ -5,7 +5,7 @@
 layout: default
 ---
 <div>
-<h2 class="heading">Check out my most recent posts...</h2>
+<h2 class="heading">Check out my recent posts...</h2>
 <br>
 <div class="recent-posts">
   <ul class="post-list">
@@ -22,7 +22,8 @@ layout: default
   </ul>
   </div>
   <br><br>
-  <h2 class="heading">Or my full archive...</h2><br>
+  <h2 class="heading">Or my full archive...</h2>
+  <br>
   <div class="archive-link">
   <a href="archive.html"><img class="archive-img" src="archive2.png"/></a>
   </div>
