@@ -15,16 +15,32 @@ body{
   margin-left: 10px;
 }
 
+.heading{
+  font-size: 22px;
+  color: #2199ab;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  text-align: center;
+}
+
+
 blockquote {
     display: block;
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
     border: none;
     text-align: center;
-    font-size: 17px;
+    font-size: 18px;
     color: #E08BA2;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.break-wrap{
+  text-align: center;
+}
+
+.break{
+  width: 40px;
+  height: 40px;
 }
 
 .card-link{
@@ -43,6 +59,18 @@ blockquote {
   color: #2199ab;
 }
 
+.recent-posts{
+  text-align: center;
+}
+.post-link{
+  display: inline-block;
+  text-align: left;
+}
+
+.card-wrapper{
+  display: inline-block;
+}
+
 
 .site-header {
   border-top: 3px solid #187381;
@@ -50,14 +78,8 @@ blockquote {
   min-height: 55.95px;
   position: relative; }
 
-// .card-wrapper{
-//   // margin-right:0px;
-//   // width:10px;
-//   margin: 0 auto;
-// }
 
 .card {
-    /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width:210px;
@@ -65,32 +87,36 @@ blockquote {
     padding-top: 10px;
     padding-bottom: 5px;
     padding-left: 10px;
-    margin-right: 20px;
+    margin-right: 10px;
     float:left !important;
-    border-color: #30C2D7;
-    border-width: 2px;
+    border-color: #E08BA2;
+    border-width: 4px;
     border-style: solid;
 }
 
-/* On mouse-over, add a deeper shadow */
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+    background-color: #f3f2ec;
 }
 
 .card:hover h3{
-  color: #8DD871;
+  color: #EF3462;
+}
+
+.archive-link{
+  display: block;
+  text-align: center;
 }
 
 .post-footer{
   font-size: 25px;
   margin-left: 40%;
 }
-/* Add some padding inside the card container */
-// .container {
-//   padding-top: 10px;
-//   padding-left: 30px;
-// }
 
+.archive-img{
+  width: 150px;
+  height: 150px;
+}
 
 footer{
   background-color: #E08BA2;
@@ -160,12 +186,6 @@ footer a:hover{
   padding-right: 5px;
 }
 
-// grid-container{
-//   display: grid;
-//   grid-template-columns: auto auto auto;
-//   grid-gap: 10px;
-// }
-
 @media only screen and (max-width: 630px) {
   .profile-pic {
       border-radius: 50%;
@@ -187,13 +207,6 @@ footer a:hover{
   .card-wrapper{
     display: inline-block;
   }
-}
-
-@media only screen and (max-width: 800px) {
-  .footer-col {
-    float: none;
-    width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2)); }
 }
 
 /*8DD871

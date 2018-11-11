@@ -5,9 +5,7 @@
 layout: default
 ---
 <div>
-<div class="quote">
-  <blockquote>"I never am really satisfied that I understand anything; because, understand it well as I may, my comprehension can only be an infinitesimal fraction of all I want to understand"<br>~ Ada Lovelace</blockquote>
-</div>
+<h2 class="heading">Check out my most recent posts...</h2>
 <br>
 <div class="recent-posts">
   <ul class="post-list">
@@ -22,5 +20,17 @@ layout: default
           </li>
         </a>
   </ul>
+  </div>
+  <br><br>
+  <h2 class="heading">Or my full archive...</h2><br>
+  <div class="archive-link">
+  <a href="archive.html"><img class="archive-img" src="archive2.png"/></a>
+  </div>
+  <br><br>
+  <div class="quote">
+    <blockquote>"I never am really satisfied that I understand anything; because, understand it well as I may, my comprehension can only be an infinitesimal fraction of all I want to understand"<br>Ada Lovelace</blockquote>
+  </div>
+  <div class="break-wrap">
+    <img class="break" src="therefore.png"/>
   </div>
   </div>
