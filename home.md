@@ -11,16 +11,16 @@ layout: default
 
 <div class="row">
  <div class="leftcolumn">
- <a href="{{ site.baseurl }}{% post_url 2018-11-18-payingforsoftware %}">
-   <div class="card" style="border-color:#8DD871">
-      <h3 class="card-link">Paying for Software</h3>
-      <span class="post-meta">Nov 18, 2018</span>
+ <a href="{{ site.baseurl }}{% post_url 2018-10-27-techeducation %}">
+   <div class="card">
+      <h3 class="card-link">New Post</h3>
+      <span class="post-meta">Nov 15, 2018</span>
       <br><br>
-      <p class="post-meta">How do you want to pay for your software? A one-time fee, recurring payments, or selling your data?</p><br>
+      <p class="post-meta">The "science" and "math" of STEM are already well integrated in K-12 schools. What about technology?</p><br>
    </div>
  </a>
  <a href="{{ site.baseurl }}{% post_url 2018-11-08-impostersyndrome %}">
-    <div class="card" style="border-color:#30C2D7">
+    <div class="card">
        <h3 class="card-link">Imposter Syndrome</h3>
        <span class="post-meta">Nov 8, 2018</span>
        <br><br>
@@ -28,7 +28,7 @@ layout: default
     </div>
   </a>
   <a href="{{ site.baseurl }}{% post_url 2018-10-27-techeducation %}">
-    <div class="card" style="border-color:#E08BA2">
+    <div class="card">
        <h3 class="card-link">Technology and Education</h3>
        <span class="post-meta">Oct 30, 2018</span>
        <br><br>
@@ -38,16 +38,16 @@ layout: default
  </div>
  <div class="rightcolumn">
   <a href="about">
-   <div class="card" style="text-align:center; border-color:#EF3462">
+   <div class="card" style="text-align:center">
      <img class="about-me-img" src="aboutme.png"/>
    </div>
    </a>
-   <div class="card" style="border-color:#8DD871">
+   <div class="card">
    <h2 style="color:#5b5b5b">Quote of the Week</h2>
      <p class="post-meta">"Humans are allergic to change. They love to say, 'We've always done it this way.' I try to fight that. That's why I have a clock on my wall that runs counter-clockwise."<br>- Grace Hopper</p>
    </div>
    <a href="archive.html">
-   <div class="card" style="border-color:#30C2D7">
+   <div class="card">
      <div class="archive-link">
      <img class="archive-img" src="archive2.png"/>
      </div>

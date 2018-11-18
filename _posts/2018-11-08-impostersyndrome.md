@@ -3,7 +3,7 @@ layout: default
 title:  "Imposter Syndrome"
 ---
 <h1>Imposter Syndrome</h1>
-<span class="post-meta">Posted: Nov 8, 2018</span>
+<span class="post-meta">Posted: Nov 08, 2018</span>
 <h3><i>Imposter syndrome is normal, especially in technology. But you can overcome it!</i></h3>
 
 Proof:
@@ -11,8 +11,8 @@ Each night before you go to bed write down three things you did well that day. T
 
 A popular term these days, imposter syndrome is a feeling of inadequacy despite evidence of success. You fear being exposed as an "imposter" as you attribute your accomplishments to luck. It is very common and not unique to being in the field of technology. That being said, I believe that being in the field of technology can make these feelings more prominent and longer term.
 
-<div class="imposter-contain">
-<br><img class="imposter-img" src="https://imgs.xkcd.com/comics/impostor_syndrome.png"/>
+<div class="comic-contain">
+<br><img src="https://imgs.xkcd.com/comics/impostor_syndrome.png"/>
 <figcaption><i>via xkcd</i></figcaption>
 </div><br>
 

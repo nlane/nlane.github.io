@@ -7,6 +7,10 @@ body{
   background-color: #f9f8f5;
 }
 
+.wrapper{
+  max-width: 800px;
+}
+
 .logo{
   width: 30px;
   height: 30px;
@@ -45,6 +49,8 @@ blockquote {
 
 .card-link{
   color: #2199ab;
+  font-size: 25px;
+  margin-bottom: 0;
 }
 
 .link-inside-post{
@@ -79,7 +85,7 @@ blockquote {
   position: relative; }
 
 
-.card {
+.post-card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width:210px;
@@ -94,12 +100,12 @@ blockquote {
     border-style: solid;
 }
 
-.card:hover {
+.post-card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
     background-color: #f3f2ec;
 }
 
-.card:hover h3{
+.post-card:hover h3{
   color: #EF3462;
 }
 
@@ -116,6 +122,11 @@ blockquote {
 .archive-img{
   width: 150px;
   height: 150px;
+}
+
+.about-me{
+  width: 50px;
+  height: 50px;
 }
 
 footer{
@@ -173,7 +184,7 @@ footer a:hover{
     float:right;
 }
 
-.imposter-contain{
+.comic-contain{
   text-align: center;
 }
 
@@ -206,6 +217,95 @@ footer a:hover{
   }
   .card-wrapper{
     display: inline-block;
+  }
+}
+
+/* Header/Blog Title */
+.header {
+  // border: solid;
+  // border-width: 3px;
+  // border-color: #30C2D7;
+  padding: 0px;
+  font-size: 40px;
+  text-align: center;
+  // background: #E08BA2;
+  // color: #f9f8f5;
+  font: 400 30px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.img-header{
+  width: 50px;
+  height: 50px;
+  padding-left:10px;
+}
+
+.about-me-img{
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 60%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 35%;
+  padding-left: 20px;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  // background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-color: #E08BA2;
+  border-width: 3px;
+  border-style: solid;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+    background-color: #f3f2ec;
+}
+
+.card:hover h3{
+  color: #EF3462;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
   }
 }
 
