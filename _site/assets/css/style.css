@@ -600,8 +600,8 @@ blockquote {
   margin-left: 40%; }
 
 .archive-img {
-  width: 150px;
-  height: 150px; }
+  width: 125px;
+  height: 125px; }
 
 .about-me {
   width: 50px;
@@ -694,8 +694,8 @@ footer a:hover {
   padding-left: 10px; }
 
 .about-me-img {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   text-align: center; }
 
 /* Create two unequal columns that floats next to each other */
