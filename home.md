@@ -16,7 +16,7 @@ layout: default
       <h3 class="card-link">5 Life Lessons from Programming to Take into 2019</h3>
       <span class="post-meta">Jan 13, 2019</span>
       <br><br>
-      <p class="post-meta">With new year resolutions in mind, I am going to apply 5 programming principles to my life in order to live a better 2019.</p><br>
+      <p class="post-meta">With new year's resolutions in mind, I am going to apply 5 programming principles to my life in order to live a better 2019.</p>
    </div>
  </a>
  <a href="{{ site.baseurl }}{% post_url 2018-10-27-techeducation %}">
