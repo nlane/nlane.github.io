@@ -11,6 +11,14 @@ layout: default
 
 <div class="row">
  <div class="leftcolumn">
+ <a href="{{ site.baseurl }}{% post_url 2019-01-13-lifelessonsfromprogramming %}">
+   <div class="card">
+      <h3 class="card-link">5 Life Lessons from Programming to Take into 2019</h3>
+      <span class="post-meta">Jan 13, 2019</span>
+      <br><br>
+      <p class="post-meta">With new year resolutions in mind, I am going to apply 5 programming principles to my life in order to live a better 2019.</p><br>
+   </div>
+ </a>
  <a href="{{ site.baseurl }}{% post_url 2018-12-09-csedweek %}">
    <div class="card" style="border-color:#E08BA2">
       <h3 class="card-link">CS Education Week</h3>
@@ -27,14 +35,6 @@ layout: default
       <p class="post-meta">How do you want to pay for your software? A one-time fee, recurring payments, or selling your data?</p>
    </div>
  </a>
- <a href="{{ site.baseurl }}{% post_url 2018-11-08-impostersyndrome %}">
-    <div class="card" style="border-color:#30C2D7">
-       <h3 class="card-link">Imposter Syndrome</h3>
-       <span class="post-meta">Nov 8, 2018</span>
-       <br><br>
-       <p class="post-meta">Ever feel like you just got lucky, and your successes are not due to your own abilities? Same.</p>
-    </div>
-  </a>
  </div>
  <div class="rightcolumn">
   <a href="about">
