@@ -12,7 +12,7 @@ layout: default
 <div class="row">
  <div class="leftcolumn">
  <a href="{{ site.baseurl }}{% post_url 2019-01-13-lifelessonsfromprogramming %}">
-   <div class="card" style="border-color:#EF3462">
+   <div class="card" style="border-color:#30C2D7">
       <h3 class="card-link">5 Life Lessons from Programming to Take into 2019</h3>
       <span class="post-meta">Jan 13, 2019</span>
       <br><br>
