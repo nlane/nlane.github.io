@@ -11,6 +11,14 @@ layout: default
 
 <div class="row">
  <div class="leftcolumn">
+ <a href="{{ site.baseurl }}{% post_url 2019-01-27-dataprivacy %}">
+   <div class="card" style="border-color:#8DD871">
+      <h3 class="card-link">Data Privacy</h3>
+      <span class="post-meta">Jan 27, 2018</span>
+      <br><br>
+      <p class="post-meta">Everyone is talking about it, but how does it affect you?</p>
+   </div>
+ </a>
  <a href="{{ site.baseurl }}{% post_url 2019-01-13-lifelessonsfromprogramming %}">
    <div class="card" style="border-color:#30C2D7">
       <h3 class="card-link">5 Life Lessons from Programming to Take into 2019</h3>
@@ -25,14 +33,7 @@ layout: default
       <span class="post-meta">Dec 09, 2018</span>
       <br><br>
       <p class="post-meta">Today marks the close of CS Education Week. Here is a listing of CS education resources!</p>
-   </div>
- </a>
- <a href="{{ site.baseurl }}{% post_url 2018-11-18-payingforsoftware %}">
-   <div class="card" style="border-color:#8DD871">
-      <h3 class="card-link">Paying for Software</h3>
-      <span class="post-meta">Nov 18, 2018</span>
-      <br><br>
-      <p class="post-meta">How do you want to pay for your software? A one-time fee, recurring payments, or selling your data?</p>
+      <br>
    </div>
  </a>
  </div>
@@ -44,7 +45,7 @@ layout: default
    </a>
    <div class="card" style="border-color:#8DD871">
    <h2 style="color:#5b5b5b">Quote of the Week</h2>
-     <p class="post-meta">"So often people are working hard at the wrong thing. Working on the right thing is probably more important than working hard."<br>- Caterina Fake</p>
+     <p class="post-meta">"You can only become truly accomplished at something you love. Don't make money your goal. Instead, pursue the things you love doing, and then do them so well that people can't take their eyes off you." - Maya Angelou</p>
    </div>
    <a href="archive.html">
    <div class="card" style="border-color:#30C2D7">
