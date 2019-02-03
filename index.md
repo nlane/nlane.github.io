@@ -11,8 +11,16 @@ layout: default
 
 <div class="row">
  <div class="leftcolumn">
+ <a href="{{ site.baseurl }}{% post_url 2019-02-03-acultureofpretension %}">
+   <div class="card" style="border-color:#30C2D7">
+      <h3 class="card-link">A Culture of Pretension</h3>
+      <span class="post-meta">Feb 03, 2019</span>
+      <br><br>
+      <p class="post-meta">Why does a culture of pretension exist, and what are the consequences?</p>
+   </div>
+ </a>
  <a href="{{ site.baseurl }}{% post_url 2019-01-27-dataprivacy %}">
-   <div class="card" style="border-color:#8DD871">
+   <div class="card" style="border-color:#E08BA2">
       <h3 class="card-link">Data Privacy</h3>
       <span class="post-meta">Jan 27, 2018</span>
       <br><br>
@@ -20,20 +28,11 @@ layout: default
    </div>
  </a>
  <a href="{{ site.baseurl }}{% post_url 2019-01-13-lifelessonsfromprogramming %}">
-   <div class="card" style="border-color:#30C2D7">
+   <div class="card" style="border-color:#8DD871">
       <h3 class="card-link">5 Life Lessons from Programming to Take into 2019</h3>
       <span class="post-meta">Jan 13, 2019</span>
       <br><br>
       <p class="post-meta">With new year's resolutions in mind, I am going to apply 5 programming principles to my life in order to live a better 2019.</p>
-   </div>
- </a>
- <a href="{{ site.baseurl }}{% post_url 2018-12-09-csedweek %}">
-   <div class="card" style="border-color:#E08BA2">
-      <h3 class="card-link">CS Education Week</h3>
-      <span class="post-meta">Dec 09, 2018</span>
-      <br><br>
-      <p class="post-meta">Today marks the close of CS Education Week. Here is a listing of CS education resources!</p>
-      <br>
    </div>
  </a>
  </div>
@@ -45,7 +44,7 @@ layout: default
    </a>
    <div class="card" style="border-color:#8DD871">
    <h2 style="color:#5b5b5b">Quote of the Week</h2>
-     <p class="post-meta">"You can only become truly accomplished at something you love. Don't make money your goal. Instead, pursue the things you love doing, and then do them so well that people can't take their eyes off you." - Maya Angelou</p>
+     <p class="post-meta">"No one can make you feel inferior without your consent." - Eleanor Roosevelt</p>
    </div>
    <a href="archive.html">
    <div class="card" style="border-color:#30C2D7">
