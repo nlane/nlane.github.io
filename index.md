@@ -22,7 +22,7 @@ layout: default
  <a href="{{ site.baseurl }}{% post_url 2019-01-27-dataprivacy %}">
    <div class="card" style="border-color:#E08BA2">
       <h3 class="card-link">Data Privacy</h3>
-      <span class="post-meta">Jan 27, 2018</span>
+      <span class="post-meta">Jan 27, 2019</span>
       <br><br>
       <p class="post-meta">Everyone is talking about it, but how does it affect you?</p>
    </div>
